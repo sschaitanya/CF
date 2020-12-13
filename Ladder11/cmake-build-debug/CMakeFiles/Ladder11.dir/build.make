@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/santhoshchaitanyasingaraju/Desktop/Ladder11
+CMAKE_SOURCE_DIR = /Users/santhoshchaitanyasingaraju/Documents/Competetive_Programming_gitrepo/Ladder11
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/santhoshchaitanyasingaraju/Desktop/Ladder11/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/santhoshchaitanyasingaraju/Documents/Competetive_Programming_gitrepo/Ladder11/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Ladder11.dir/depend.make
@@ -57,30 +57,30 @@ include CMakeFiles/Ladder11.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Ladder11.dir/flags.make
 
-CMakeFiles/Ladder11.dir/Borze.cpp.o: CMakeFiles/Ladder11.dir/flags.make
-CMakeFiles/Ladder11.dir/Borze.cpp.o: ../Borze.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/santhoshchaitanyasingaraju/Desktop/Ladder11/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Ladder11.dir/Borze.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Ladder11.dir/Borze.cpp.o -c /Users/santhoshchaitanyasingaraju/Desktop/Ladder11/Borze.cpp
+CMakeFiles/Ladder11.dir/Solutions/BeautifulYear.cpp.o: CMakeFiles/Ladder11.dir/flags.make
+CMakeFiles/Ladder11.dir/Solutions/BeautifulYear.cpp.o: ../Solutions/BeautifulYear.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/santhoshchaitanyasingaraju/Documents/Competetive_Programming_gitrepo/Ladder11/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Ladder11.dir/Solutions/BeautifulYear.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Ladder11.dir/Solutions/BeautifulYear.cpp.o -c /Users/santhoshchaitanyasingaraju/Documents/Competetive_Programming_gitrepo/Ladder11/Solutions/BeautifulYear.cpp
 
-CMakeFiles/Ladder11.dir/Borze.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Ladder11.dir/Borze.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/santhoshchaitanyasingaraju/Desktop/Ladder11/Borze.cpp > CMakeFiles/Ladder11.dir/Borze.cpp.i
+CMakeFiles/Ladder11.dir/Solutions/BeautifulYear.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Ladder11.dir/Solutions/BeautifulYear.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/santhoshchaitanyasingaraju/Documents/Competetive_Programming_gitrepo/Ladder11/Solutions/BeautifulYear.cpp > CMakeFiles/Ladder11.dir/Solutions/BeautifulYear.cpp.i
 
-CMakeFiles/Ladder11.dir/Borze.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Ladder11.dir/Borze.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/santhoshchaitanyasingaraju/Desktop/Ladder11/Borze.cpp -o CMakeFiles/Ladder11.dir/Borze.cpp.s
+CMakeFiles/Ladder11.dir/Solutions/BeautifulYear.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Ladder11.dir/Solutions/BeautifulYear.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/santhoshchaitanyasingaraju/Documents/Competetive_Programming_gitrepo/Ladder11/Solutions/BeautifulYear.cpp -o CMakeFiles/Ladder11.dir/Solutions/BeautifulYear.cpp.s
 
 # Object files for target Ladder11
 Ladder11_OBJECTS = \
-"CMakeFiles/Ladder11.dir/Borze.cpp.o"
+"CMakeFiles/Ladder11.dir/Solutions/BeautifulYear.cpp.o"
 
 # External object files for target Ladder11
 Ladder11_EXTERNAL_OBJECTS =
 
-Ladder11: CMakeFiles/Ladder11.dir/Borze.cpp.o
+Ladder11: CMakeFiles/Ladder11.dir/Solutions/BeautifulYear.cpp.o
 Ladder11: CMakeFiles/Ladder11.dir/build.make
 Ladder11: CMakeFiles/Ladder11.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/santhoshchaitanyasingaraju/Desktop/Ladder11/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Ladder11"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/santhoshchaitanyasingaraju/Documents/Competetive_Programming_gitrepo/Ladder11/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Ladder11"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Ladder11.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -93,6 +93,6 @@ CMakeFiles/Ladder11.dir/clean:
 .PHONY : CMakeFiles/Ladder11.dir/clean
 
 CMakeFiles/Ladder11.dir/depend:
-	cd /Users/santhoshchaitanyasingaraju/Desktop/Ladder11/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/santhoshchaitanyasingaraju/Desktop/Ladder11 /Users/santhoshchaitanyasingaraju/Desktop/Ladder11 /Users/santhoshchaitanyasingaraju/Desktop/Ladder11/cmake-build-debug /Users/santhoshchaitanyasingaraju/Desktop/Ladder11/cmake-build-debug /Users/santhoshchaitanyasingaraju/Desktop/Ladder11/cmake-build-debug/CMakeFiles/Ladder11.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/santhoshchaitanyasingaraju/Documents/Competetive_Programming_gitrepo/Ladder11/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/santhoshchaitanyasingaraju/Documents/Competetive_Programming_gitrepo/Ladder11 /Users/santhoshchaitanyasingaraju/Documents/Competetive_Programming_gitrepo/Ladder11 /Users/santhoshchaitanyasingaraju/Documents/Competetive_Programming_gitrepo/Ladder11/cmake-build-debug /Users/santhoshchaitanyasingaraju/Documents/Competetive_Programming_gitrepo/Ladder11/cmake-build-debug /Users/santhoshchaitanyasingaraju/Documents/Competetive_Programming_gitrepo/Ladder11/cmake-build-debug/CMakeFiles/Ladder11.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Ladder11.dir/depend
 

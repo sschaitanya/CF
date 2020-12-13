@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/santhoshchaitanyasingaraju/Desktop/Ladder11/Borze.cpp" "/Users/santhoshchaitanyasingaraju/Desktop/Ladder11/cmake-build-debug/CMakeFiles/Ladder11.dir/Borze.cpp.o"
+  "/Users/santhoshchaitanyasingaraju/Documents/Competetive_Programming_gitrepo/Ladder11/Solutions/BeautifulYear.cpp" "/Users/santhoshchaitanyasingaraju/Documents/Competetive_Programming_gitrepo/Ladder11/cmake-build-debug/CMakeFiles/Ladder11.dir/Solutions/BeautifulYear.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

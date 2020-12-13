@@ -3,4 +3,4 @@ project(Ladder11)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(Ladder11 Borze.cpp)
+add_executable(Ladder11 Solutions/BeautifulYear.cpp)

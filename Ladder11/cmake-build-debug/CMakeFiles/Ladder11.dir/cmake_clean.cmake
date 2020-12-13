@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Ladder11.dir/Borze.cpp.o"
+  "CMakeFiles/Ladder11.dir/Solutions/BeautifulYear.cpp.o"
   "Ladder11"
   "Ladder11.pdb"
 )

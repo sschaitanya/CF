@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/santhoshchaitanyasingaraju/Desktop/Ladder11
+CMAKE_SOURCE_DIR = /Users/santhoshchaitanyasingaraju/Documents/Competetive_Programming_gitrepo/Ladder11
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/santhoshchaitanyasingaraju/Desktop/Ladder11/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/santhoshchaitanyasingaraju/Documents/Competetive_Programming_gitrepo/Ladder11/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/santhoshchaitanyasingaraju/Desktop/Ladder11/cmake-build-debug/CMakeFiles /Users/santhoshchaitanyasingaraju/Desktop/Ladder11/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/santhoshchaitanyasingaraju/Documents/Competetive_Programming_gitrepo/Ladder11/cmake-build-debug/CMakeFiles /Users/santhoshchaitanyasingaraju/Documents/Competetive_Programming_gitrepo/Ladder11/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/santhoshchaitanyasingaraju/Desktop/Ladder11/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/santhoshchaitanyasingaraju/Documents/Competetive_Programming_gitrepo/Ladder11/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,32 +123,32 @@ Ladder11/fast:
 	$(MAKE) -f CMakeFiles/Ladder11.dir/build.make CMakeFiles/Ladder11.dir/build
 .PHONY : Ladder11/fast
 
-Borze.o: Borze.cpp.o
+Solutions/BeautifulYear.o: Solutions/BeautifulYear.cpp.o
 
-.PHONY : Borze.o
+.PHONY : Solutions/BeautifulYear.o
 
 # target to build an object file
-Borze.cpp.o:
-	$(MAKE) -f CMakeFiles/Ladder11.dir/build.make CMakeFiles/Ladder11.dir/Borze.cpp.o
-.PHONY : Borze.cpp.o
+Solutions/BeautifulYear.cpp.o:
+	$(MAKE) -f CMakeFiles/Ladder11.dir/build.make CMakeFiles/Ladder11.dir/Solutions/BeautifulYear.cpp.o
+.PHONY : Solutions/BeautifulYear.cpp.o
 
-Borze.i: Borze.cpp.i
+Solutions/BeautifulYear.i: Solutions/BeautifulYear.cpp.i
 
-.PHONY : Borze.i
+.PHONY : Solutions/BeautifulYear.i
 
 # target to preprocess a source file
-Borze.cpp.i:
-	$(MAKE) -f CMakeFiles/Ladder11.dir/build.make CMakeFiles/Ladder11.dir/Borze.cpp.i
-.PHONY : Borze.cpp.i
+Solutions/BeautifulYear.cpp.i:
+	$(MAKE) -f CMakeFiles/Ladder11.dir/build.make CMakeFiles/Ladder11.dir/Solutions/BeautifulYear.cpp.i
+.PHONY : Solutions/BeautifulYear.cpp.i
 
-Borze.s: Borze.cpp.s
+Solutions/BeautifulYear.s: Solutions/BeautifulYear.cpp.s
 
-.PHONY : Borze.s
+.PHONY : Solutions/BeautifulYear.s
 
 # target to generate assembly for a file
-Borze.cpp.s:
-	$(MAKE) -f CMakeFiles/Ladder11.dir/build.make CMakeFiles/Ladder11.dir/Borze.cpp.s
-.PHONY : Borze.cpp.s
+Solutions/BeautifulYear.cpp.s:
+	$(MAKE) -f CMakeFiles/Ladder11.dir/build.make CMakeFiles/Ladder11.dir/Solutions/BeautifulYear.cpp.s
+.PHONY : Solutions/BeautifulYear.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Ladder11"
-	@echo "... Borze.o"
-	@echo "... Borze.i"
-	@echo "... Borze.s"
+	@echo "... Solutions/BeautifulYear.o"
+	@echo "... Solutions/BeautifulYear.i"
+	@echo "... Solutions/BeautifulYear.s"
 .PHONY : help
 
 
